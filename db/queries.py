@@ -16,3 +16,5 @@ UPDATE_TASK = "UPDATE tasks SET task = ? WHERE id = ?"
 TOGGLE_TASK_STATUS = "UPDATE tasks SET is_done = ? WHERE id = ?"
 
 DELETE_TASK = "DELETE FROM tasks WHERE id = ?"
+
+DELETE_COMPLETED_TASKS = "DELETE FROM tasks WHERE is_done = 1"
